@@ -16,7 +16,7 @@ This function will be used to close the overlay from it's parent component.
 
 Example:
 
-```java```
+```
 ...
 this.state = { showOverlay: false }
 ...

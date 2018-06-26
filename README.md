@@ -29,7 +29,7 @@ render() {
   	<div>
   		<button onClick={() => this.setState({ showOverlay: true })}>Open overlay</button>
   		<Overlay onCloseOverlay={this.onCloseOverlay} content={null} style={...} />
-		</div>
+    </div>
   );
 }
 ```

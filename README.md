@@ -40,7 +40,7 @@ render() {
 
 The content of the overlay is simply passed down as the __content__ prop.
 
-This can either be a string, an html <div> or even a component as <Component />.
+This can either be a string, an html div or even a react component.
 
 #### Styling
 

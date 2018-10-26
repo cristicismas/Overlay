@@ -21,14 +21,14 @@ Example:
 this.state = { showOverlay: false }
 ...
 onCloseOverlay() {
-	this.setState({ showOverlay: false });
+  this.setState({ showOverlay: false });
 }
 ...
 render() {
-	return (
-  	<div>
-  		<button onClick={() => this.setState({ showOverlay: true })}>Open overlay</button>
-  		<Overlay onCloseOverlay={this.onCloseOverlay} content={null} style={...} />
+  return (
+    <div>
+      <button onClick={() => this.setState({ showOverlay: true })}>Open overlay</button>
+      <Overlay onCloseOverlay={this.onCloseOverlay} content={null} style={...} />
     </div>
   );
 }
